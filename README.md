@@ -13,7 +13,7 @@
     
   **(b)Settings**
     
-    - LCD  brightness  control. Save it to eeprom.
+    - LCD  brightness  control. Save it to eeprom;
         
     - Matrix brightness control. Make sure to display something on the matrix when selecting it. Save it to eeprom.
         
@@ -24,11 +24,16 @@
   **4. Upon game ending** - Display relevant game info: score, time, lives left etc. Must inform player if he/she beat the highscore. This menu should only be closed by the player, pressing a button.
 
   <h2>Game requirements</h2>
-    – Minimal components: an LCD, a joystick, a buzzer and the led matrix.
-    – You must add basic sounds to the game (when ”eating” food, when dying, when finishing the level etc). Extra: add theme songs.
-    – It must be intuitive and fun to play.
-    – It must make sense in the current setup
-    - It can be a classic snake game, basically where the length of the snake increases in time.
+    – Minimal components: an LCD, a joystick, a buzzer and the led matrix;
+    
+    – You must add basic sounds to the game (when ”eating” food, when dying, when finishing the level etc). Extra: add theme songs;
+    
+    – It must be intuitive and fun to play;
+    
+    – It must make sense in the current setup;
+    
+    - It can be a classic snake game, basically where the length of the snake increases in time;
+    
     – The ”food” should blink, so as to separate it from the rest of the snake.
 </details> 
 
