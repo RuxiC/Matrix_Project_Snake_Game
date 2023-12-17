@@ -2,7 +2,7 @@
 
 <details>
   <summary><h2><b>TASK REQUIREMENTS 📁</b></h2></summary>
-  <h2>Menu task</h2>
+  <h3>Menu task</h3>
      Create a menu for your game, emphasis on ‘the game. You should scroll on the LCD with the joystick. The menu should include the following functionality:
 
   **1. Intro Message** - When  powering  up  the  project,  a  greeting  message should be shown for a few moments.
@@ -38,7 +38,8 @@
 </details> 
 
 <details>
-  <summary><h2><b>GAME RULES 🎮</b></h2></summary>
+  <summary><h3><b>GAME RULES 🎮</b></h3></summary>
+  <h3>Game info 💬</h3>
   The objective of the snake is to eat the blinking food 🍕. To start the game, the player has to enter the start game submenu, and then press the button. While playing, the score appears on the LCD. For now, the minigame ends when the score is 10.
   
   <h3>Bugs 🐜</h3>
