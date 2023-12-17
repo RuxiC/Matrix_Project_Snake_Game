@@ -26,7 +26,7 @@
   <h2>Game requirements</h2>
     – Minimal components: an LCD, a joystick, a buzzer and the led matrix;
     
-    – You must add basic sounds to the game (when ”eating” food, when dying, when finishing the level etc). Extra: add theme songs;
+    – You must add basic sounds to the game;
     
     – It must be intuitive and fun to play;
     
