@@ -9,23 +9,27 @@
   
   **2. Should contain roughly the following categories:**
   
-    **(a)Start game** - Starts the initial level
+  **(a)Start game** - Starts the initial level
     
-    **(b)Settings**
+  **(b)Settings**
     
-    **i.** LCD  brightness  control. Save  value  to  EEPROM  and  load  it upon system start.
+    - LCD  brightness  control. Save it to eeprom.
         
-    **ii.** Matrix brightness control
+    - Matrix brightness control. Make sure to display something on the matrix when selecting it. Save it to eeprom.
         
-    **(c)About** - should include details about the creator of the game. At least game name, author and github link or user.
+   **(c)About** - Should include details about the creator of the game. At least game name, author and github link or user.
     
-  **3.End Message** - When the game ends, add a message.
+  **3. While playing the game** - Display all relevant info (lives, levels, score etc.)
   
-  **4. During gameplay**
-  
-    **(a)** Show relevant details, that are dynamic: time.  
-    
-    **(b)** Implement an end game.
+  **4. Upon game ending** - Display relevant game info: score, time, lives left etc. Must inform player if he/she beat the highscore. This menu should only be closed by the player, pressing a button.
+
+  <h2>Game requirements</h2>
+    – Minimal components: an LCD, a joystick, a buzzer and the led matrix.
+    – You must add basic sounds to the game (when ”eating” food, when dying, when finishing the level etc). Extra: add theme songs.
+    – It must be intuitive and fun to play.
+    – It must make sense in the current setup
+    - It can be a classic snake game, basically where the length of the snake increases in time.
+    – The ”food” should blink, so as to separate it from the rest of the snake.
 </details> 
 
 <details>
@@ -34,8 +38,10 @@
   
   <h3>Bugs 🐜</h3>
   <ul>
+    <li>The snake does not grow when it eats the blinking food.</li>
     <li>When accessing the 'LCD bright' option, it does not work, meaning you cannot adjust the LCD brightness. </li>
     <li>You cannot mute the game sound, even though there is an on/off option in the menu.</li>
+    <li>At the end of the game, the score is displayed for 5 seconds, and it cannot be closed by the player pressing the button.</li>
   </ul>
 </details> 
 
