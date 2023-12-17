@@ -4,14 +4,25 @@
   <summary><h2><b>GAME RULES 🎮</b></h2></summary>
   
   Text pentru regulile jocului.
-
 </details> 
 
 <details>
-  <summary><h2><b>THE MENU 📋</b></h2></summary>
+  <summary><h2><b>THE MENU 📒</b></h2></summary>
   
-  Text pentru regulile jocului.
-
+  You can move through the menu using the joystick up and down. To enter an option move the joystick to the right and to exit an option move the joystick to the left.
+  <h3>Main meniu 📋</h3>
+    <ul>
+      <li>Start game</li>
+      <li>Settings</li>
+      <li>How to play</li>
+      <li>About</li>
+    </ul>  
+    <h3>Settings submenu 🔧</h3>
+    <ul>
+      <li>LCD bright<li>
+      <li>Matrix Bright</li>
+      <li>Sounds</li>
+    </ul>  
 </details> 
 
 <details>
