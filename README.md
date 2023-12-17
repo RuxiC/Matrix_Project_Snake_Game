@@ -1,6 +1,10 @@
 # Matrix Project - Snake Game 🐍
 
 <details>
+  <summary><h2><b>Task Requirements 📁</b></h2></summary>
+  
+</details> 
+<details>
   <summary><h2><b>GAME RULES 🎮</b></h2></summary>
   The objective of the snake is to eat the blinking food 🍕. To start the game, the player has to enter the start game submenu, and then press the button. While playing, the score appears on the LCD. For now, the minigame ends when the score is 10.
   
