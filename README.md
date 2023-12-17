@@ -1,7 +1,7 @@
 # Matrix Project - Snake Game 🐍
 
 <details>
-  <summary><h2><b>GAME RULES</b></h2></summary>
+  <summary><h2><b>GAME RULES 🎮</b></h2></summary>
   
   Text pentru regulile jocului.
 
