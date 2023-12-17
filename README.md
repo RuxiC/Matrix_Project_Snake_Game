@@ -7,7 +7,7 @@
 
   **1. Intro Message** - When  powering  up  the  project,  a  greeting  message should be shown for a few moments.
   
-  **2. Menu:**
+  **2. Should contain roughly the following categories:**
   
     **(a)Start game** - Starts the initial level
     
