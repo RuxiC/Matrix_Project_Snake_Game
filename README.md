@@ -3,6 +3,7 @@
 <details>
   <summary><h2><b>TASK REQUIREMENTS 📁</b></h2></summary>
   <h2>Menu task</h2>
+     Create a menu for your game, emphasis on ‘the game. You should scroll on the LCD with the joystick. The menu should include the following functionality:
 
   **1. Intro Message** - When  powering  up  the  project,  a  greeting  message should be shown for a few moments.
   
