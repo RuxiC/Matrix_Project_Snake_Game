@@ -1,9 +1,32 @@
 # Matrix Project - Snake Game 🐍
 
 <details>
-  <summary><h2><b>Task Requirements 📁</b></h2></summary>
+  <summary><h2><b>TASK REQUIREMENTS 📁</b></h2></summary>
+  <h2>Menu task</h2>
+
+  **1. Intro Message** - When  powering  up  the  project,  a  greeting  message should be shown for a few moments.
   
+  **2. Menu:**
+  
+    **(a)Start game** - Starts the initial level
+    
+    **(b)Settings**
+    
+    **i.** LCD  brightness  control. Save  value  to  EEPROM  and  load  it upon system start.
+        
+    **ii.** Matrix brightness control
+        
+    **(c)About** - should include details about the creator of the game. At least game name, author and github link or user.
+    
+  **3.End Message** - When the game ends, add a message.
+  
+  **4. During gameplay**
+  
+    **(a)** Show relevant details, that are dynamic: time.  
+    
+    **(b)** Implement an end game.
 </details> 
+
 <details>
   <summary><h2><b>GAME RULES 🎮</b></h2></summary>
   The objective of the snake is to eat the blinking food 🍕. To start the game, the player has to enter the start game submenu, and then press the button. While playing, the score appears on the LCD. For now, the minigame ends when the score is 10.
