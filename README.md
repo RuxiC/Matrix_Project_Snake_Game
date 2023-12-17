@@ -21,8 +21,8 @@
     
   <h3>Settings submenu 🔧</h3>
     <ul>
-      <li>LCD bright<li> 
-      <li>Matrix Bright</li>
+      <li>LCD bright</li>
+      <li>Matrix bright</li>
       <li>Sounds</li>
     </ul> 
 </details> 
