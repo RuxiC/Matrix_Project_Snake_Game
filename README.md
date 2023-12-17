@@ -17,7 +17,7 @@
       <li>How to play</li>
       <li>About</li>
     </ul>  
-  <h3>Settings submenu 🔧</h3>
+  ## Settings submenu 🔧
     <ul>
       <li>LCD bright<li> 
       <li>Matrix Bright</li>
