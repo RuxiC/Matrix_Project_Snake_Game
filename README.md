@@ -45,4 +45,5 @@
 </details> 
 
 ## Photo of my setup 📸
+
 <img src="https://github.com/RuxiC/Matrix_Project_Snake_Game/blob/main/Matrix_Project/matrix_game.jpeg?raw=true" alt="A photo of my setup" width="500" height="350">
