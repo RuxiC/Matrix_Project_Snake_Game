@@ -9,7 +9,7 @@
 <details>
   <summary><h2><b>THE MENU 📒</b></h2></summary>
   
-  You can move through the menu using the joystick up and down. To enter an option move the joystick to the right and to exit an option move the joystick to the left. Same for the submenu
+  You can move through the menu using the joystick up and down. To enter an option move the joystick to the right and to exit an option move the joystick to the left. Same for the submenu.While scrolling through the menu, a visual representation of the current item is displayed on the matrix.
   
   <h3>Main meniu 📋</h3>
     <ul>
