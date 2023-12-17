@@ -23,7 +23,7 @@
   
   **4. Upon game ending** - Display relevant game info: score, time, lives left etc. Must inform player if he/she beat the highscore. This menu should only be closed by the player, pressing a button.
 
-  <h2>Game requirements</h2>
+  <h3>Game requirements</h3>
   
     – Minimal components: an LCD, a joystick, a buzzer and the led matrix;
     
@@ -39,7 +39,7 @@
 </details> 
 
 <details>
-  <summary><h3><b>GAME RULES 🎮</b></h3></summary>
+  <summary><h2><b>GAME RULES 🎮</b></h2></summary>
   <h3>Game info 💬</h3>
   The objective of the snake is to eat the blinking food 🍕. To start the game, the player has to enter the start game submenu, and then press the button. While playing, the score appears on the LCD. For now, the minigame ends when the score is 10.
   
