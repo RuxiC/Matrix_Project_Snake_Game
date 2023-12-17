@@ -3,6 +3,11 @@
 <details>
   <summary><h2><b>GAME RULES 🎮</b></h2></summary>
   The objective of the snake is to eat the blinking food 🍕. To start the game, the player has to enter the start game submenu, and then press the button. While playing, the score appears on the LCD. For now, the minigame ends when the score is 10.
+  <h3>Bugs 🐜</h3>
+  <ul>
+    <li>When accessing the 'LCD bright' option, it does not work, meaning you cannot adjust the LCD brightness. </li>
+    <li>You cannot mute the game sound, even though there is an on/off option in the menu.</li>
+  </ul>
 </details> 
 
 <details>
