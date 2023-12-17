@@ -38,3 +38,5 @@
   <li>potentiometer (for controlling the LCD contrast)
 </ol>  
 </details> 
+
+<img src="https://github.com/RuxiC/IntroductionToRobotics/blob/main/Homeworks/RGB%20LED.jpeg?raw=true" alt="A photo of my setup" width="500" height="350">
