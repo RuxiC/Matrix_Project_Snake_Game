@@ -18,22 +18,22 @@
       <li>About</li>
     </ul>  
   <h3>Settings submenu 🔧</h3>
-    <ol>
+    <ul>
       <li>LCD bright<li> 
       <li>Matrix Bright</li>
       <li>Sounds</li>
-    </ol> 
+    </ul> 
     
 </details> 
 
 <details>
   <summary><h2><b>HARDWEAR COMPONENTS 🔌</b></h2></summary>
-<ul>
+<ol>
   <li>16x2 LCD</li>
   <li>1 8x8 led matrix</li>
   <li>MAX7219 driver</li>
   <li>joystick</li>
   <li>buzzer</li>
   <li>potentiometer (for controlling the LCD contrast)
-</ul>  
+</ol>  
 </details> 
