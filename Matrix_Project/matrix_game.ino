@@ -549,7 +549,7 @@ void xAxisLogic() {
     }
     joyBackToMiddleX = HIGH;
   } 
-  else if (xValue > maxThreshold && joyBackToMiddleX == LOW && state == 3 && startGame == 0 && settings == 1) {  // different values when in the settings submenu
+  else if (xValue > maxThreshold && joyBackToMiddleX == LOW && state == 3 && startGame == 0 && settings == 1) {  // diferite valori in submeniul 'settings'
     if (settingsPos == 0) {
       if (LCDbrightness < 5) {
         LCDbrightness++;
