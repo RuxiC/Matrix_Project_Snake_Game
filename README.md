@@ -51,6 +51,7 @@ This is a reproduction of the classic snake game, using Arduino. In making it, I
     <li>When accessing the 'LCD bright' option, it does not work, meaning you cannot adjust the LCD brightness. </li>
     <li>You cannot mute the game sound, even though there is an on/off option in the menu.</li>
     <li>At the end of the game, the score is displayed for 5 seconds, and it cannot be closed by the player pressing the button.</li>
+    <li>There's no highscore. At the end of the game, only displays your score.</li>
   </ul>
 </details> 
 
