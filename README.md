@@ -80,11 +80,11 @@ This is a reproduction of the classic snake game, using Arduino. In making it, I
   <summary><h2><b>HARDWEAR COMPONENTS 🔌</b></h2></summary>
 <ol>
   <li>16x2 LCD</li>
-  <li>1 8x8 led matrix</li>
+  <li>8x8 led matrix</li>
   <li>MAX7219 driver</li>
-  <li>joystick</li>
-  <li>buzzer</li>
-  <li>potentiometer (for controlling the LCD contrast)
+  <li>Joystick</li>
+  <li>Buzzer</li>
+  <li>Potentiometer (for controlling the LCD contrast)
 </ol>  
 </details> 
 
