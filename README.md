@@ -1,5 +1,7 @@
 # Matrix Project - Snake Game 🐍
 
+This is a reproduction of the classic snake game, using Arduino. In making it, I used the code of several students from older years. Also, I collaborated with my colleague Diana Cristiana Ojoc.
+
 <details>
   <summary><h2><b>TASK REQUIREMENTS 📁</b></h2></summary>
   <h3>Menu task</h3>
