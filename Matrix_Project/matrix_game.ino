@@ -603,16 +603,7 @@ void xAxisLogic() {
   }
 }
 
-// function used for printing the scrolling text
-void showLetters(int printStart, int startLetter, char* message) {
-  lcd.setCursor(printStart, 1);
-  for (int letter = startLetter; letter <= startLetter + 15; letter++) {
-    lcd.print(message[letter]);
-  }
-  lcd.print(" ");
-}
-
-// function used for the game logic
+// functia folosita pentru logica jocului
 void game() {
   if (millis() - lastBlink > blinkInterval) {
     matrix[currentFoodRow][currentFoodColumn] = !matrix[currentFoodRow][currentFoodColumn];
@@ -629,18 +620,18 @@ void game() {
   }
 }
 
-// function that generates new food (blinking point on the matrix)
+// functie care genereaza mancarea (punctul care clipeste)
 void generateFood() {
   lastFoodRow = currentFoodRow;
   lastFoodColumn = currentFoodColumn;
   currentFoodRow = random(0, 8);
   currentFoodColumn = random(0, 8);
-  matrix[lastFoodRow][lastFoodColumn] = 0;
-  matrix[currentFoodRow][currentFoodColumn] = 1;
+  matrix[lastFoodRow][lastFoodColumn] = 0;         // sterge vechea pozitie a bucatii de mancare
+  matrix[currentFoodRow][currentFoodColumn] = 1;   // marcheaza noua pozitie a bucatii de mancare
   matrixChanged = true;
 }
 
-// function that updates the matrix
+
 void updateMatrix() {
   for (int row = 0; row < matrixSize; row++) {
     for (int col = 0; col < matrixSize; col++) {
@@ -704,12 +695,10 @@ void updatePositions() {
 
 // functie folosita dupa ce se termina jocul
 void exitGame() {
-  playGameEndSound();
   for (int row = 0; row < matrixSize; row++) {
-    for (int col = 0; col < matrixSize; col++) {
-      lc.setLed(0, row, col, true);
-    }
+    lc.setRow(0, row, matrixHappy[row]);
   }
+  playGameEndSound();
   lcd.clear();
   menuCurrentItem = 0;
   subMenuOption = 0;
@@ -719,9 +708,6 @@ void exitGame() {
   lcd.print("Your score: ");
   lcd.print(score);
   delay(1000);
-  for (int row = 0; row < matrixSize; row++) {
-    lc.setRow(0, row, matrixHappy[row]);
-  }
   score = 0;
   delay(5000);
   lcd.clear();
